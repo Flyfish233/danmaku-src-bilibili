@@ -1,0 +1,8 @@
+{
+    "hostname": "127.0.0.1",
+    "port": 8001,
+    "basicAuth": "testPassword",
+    "bilibiliProtocol": "ws",
+    "reconnectCron": "0 0 3 * * *",
+    "logsDir": "./logs"
+}

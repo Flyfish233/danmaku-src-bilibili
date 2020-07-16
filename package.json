@@ -1,0 +1,29 @@
+{
+  "name": "@danmaqua/danmaku-src-bilibili",
+  "description": "Bilibili Live danmaku source server",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmaqua/danmaku-src-bilibili.git"
+  },
+  "author": {
+    "email": "fythonx@gmail.com",
+    "name": "fython",
+    "url": "https://github.com/fython"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmaqua/danmaku-src-bilibili/issues"
+  },
+  "homepage": "https://github.com/danmaqua/danmaku-src-bilibili#readme",
+  "dependencies": {
+    "@danmaqua/danmaku-src-common": "^0.1.1",
+    "bilibili-live-ws": "^5.0.1",
+    "log4js": "^6.3.0",
+    "node-cron": "^2.0.3"
+  }
+}
