@@ -19,17 +19,22 @@ Git Clone 本项目到本地，参照 `config.sample.json` 进行编辑并保存
 
 ```json
 {
-    // 弹幕源服务器绑定的 IP 地址
+    "//": "弹幕源服务器绑定的 IP 地址",
     "hostname": "127.0.0.1",
-    // 弹幕源服务器绑定的端口
+    
+    "//": "弹幕源服务器绑定的端口",
     "port": 8001,
-    // 弹幕源服务器与客户端协定的 Authorization 头部，如果不想使用可以留 null
+    
+    "//": "弹幕源服务器与客户端协定的 Authorization 头部，如果不想使用可以留 null",
     "basicAuth": "testPassword",
-    // 连接 Bilibili 直播平台使用的协议，支持 ws 和 tcp
+    
+    "//": "连接 Bilibili 直播平台使用的协议，支持 ws 和 tcp",
     "bilibiliProtocol": "ws",
-    // 定时批量重新连接直播房间的计划时间，如果不想使用可以留 null
+    
+    "//": "定时批量重新连接直播房间的计划时间，如果不想使用可以留 null",
     "reconnectCron": "0 0 3 * * *",
-    // 日志保存目录
+    
+    "//": "日志保存目录",
     "logsDir": "./logs"
 }
 ```
