@@ -23,7 +23,7 @@
   "dependencies": {
     "@danmaqua/danmaku-src-common": "^0.1.2",
     "bilibili-live-ws": "^5.0.1",
-    "log4js": "^6.3.0",
+    "log4js": "^6.4.0",
     "node-cron": "^2.0.3"
   }
 }
